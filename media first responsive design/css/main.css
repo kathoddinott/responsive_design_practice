@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+img, embed, object, video
+{
+	width: 100%;
+}
+
+#container
+{
+	max-width: 1200px;
+	margin: auto 0;
+}
+
+#box1
+{
+	background-color: red;
+	height: 300px;
+}
+
+#box2
+{
+	background-color: blue;
+	height: 300px;
+}
+
+@media screen and (min-width: 240px) {
+	#columnCon
+	{
+		display: flex;
+		flex-direction: row;
+	}
+
+	#box1
+	{
+		width: 70%;
+	}
+
+	#box2
+	{
+		width: 30px;
+	}
+}
